@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>広報職採用特設サイト | ファーストクリニック</title>
+    <meta name="description" content="ファーストクリニックの広報職採用ページです。月給40万円〜。あなたの発信力で、美容医療の正しさと魅力を伝えてください。">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Shippori+Mincho:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#BFA882', /* ゴールドベージュ */
+                        secondary: '#333333', /* ダークグレー */
+                        accent: '#8C7B63',
+                        light: '#F9F9F9',
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                        serif: ['"Shippori Mincho"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+        }
+    </style>
+</head>
+<body class="font-sans text-secondary antialiased bg-white">
+
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-md z-50 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="https://firstclinic-tokyo.com/" target="_blank" class="flex items-center">
+                        <img src="https://firstclinic-tokyo.com/fc/wp-content/themes/fc/assets/images/logo.svg" alt="FIRST CLINIC TOKYO" class="h-8 md:h-10">
+                        <span class="ml-3 text-[10px] md:text-xs font-sans font-normal tracking-wider text-gray-500 border-l border-gray-300 pl-3">RECRUITMENT</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#message" class="text-gray-600 hover:text-primary transition px-3 py-2 text-sm font-medium">メッセージ</a>
+                    <a href="#job-desc" class="text-gray-600 hover:text-primary transition px-3 py-2 text-sm font-medium">仕事内容</a>
+                    <a href="#employee" class="text-gray-600 hover:text-primary transition px-3 py-2 text-sm font-medium">社員の声</a>
+                    <a href="#requirements" class="text-gray-600 hover:text-primary transition px-3 py-2 text-sm font-medium">募集要項</a>
+                </nav>
+                <div class="flex items-center">
+                    <a href="#entry" class="bg-primary hover:bg-accent text-white px-6 py-3 rounded-full text-sm font-bold transition duration-300 shadow-lg transform hover:-translate-y-0.5">
+                        ENTRY
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="relative h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Image Placeholder -->
+        <div class="absolute inset-0 z-0">
+            <img src="20250523-DSC_1420.webp" alt="Clinic Interior Aesthetic" class="w-full h-full object-cover">
+            <div class="absolute inset-0 hero-gradient"></div>
+        </div>
+        
+        <div class="relative z-10 text-center text-white px-4 max-w-4xl mx-auto fade-in-up">
+            <p class="text-sm md:text-lg tracking-[0.3em] mb-4 font-light">FIRST CLINIC PR RECRUITMENT</p>
+            <h1 class="text-4xl md:text-6xl font-serif font-medium leading-tight mb-8">
+                あなたの言葉が、<br>誰かの自信になる。<br>
+                <span class="text-2xl md:text-3xl mt-4 block font-light">美容医療の「正しさ」と「魅力」を届ける広報</span>
+            </h1>
+            <p class="text-base md:text-lg mb-10 text-gray-100 font-light leading-relaxed">
+                ただ情報を発信するだけではない。<br>
+                クリニックと患者様の架け橋となり、ブランドを創り上げる。<br>
+                月給40万円〜 / 経験者募集
+            </p>
+            <a href="#requirements" class="inline-block border border-white hover:bg-white hover:text-secondary text-white px-10 py-4 rounded-sm transition duration-300 tracking-widest text-sm">
+                募集要項を見る
+            </a>
+        </div>
+    </div>
+
+    <!-- Message Section -->
+    <section id="message" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-primary font-bold tracking-widest text-xs uppercase block mb-2">MESSAGE</span>
+                <h2 class="text-3xl font-serif text-secondary mb-6">「綺麗になりたい」という想いに<br>誠実に向き合うために。</h2>
+                <div class="w-16 h-0.5 bg-primary mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-xl font-bold mb-4 leading-relaxed">これからのファーストクリニックを<br>創るのは、あなたの発信力です。</h3>
+                    <p class="text-gray-600 leading-7 mb-6 text-justify">
+                        ファーストクリニックは、ただ施術を提供するだけの場所ではありません。患者様が抱えるコンプレックスに寄り添い、医学的根拠に基づいた「正解」を提案する場所です。
+                    </p>
+                    <p class="text-gray-600 leading-7 mb-6 text-justify">
+                        しかし、どれだけ素晴らしい技術があっても、それが正しく伝わらなければ意味がありません。SNS全盛の今、情報の取捨選択はより難しくなっています。
+                    </p>
+                    <p class="text-gray-600 leading-7 text-justify">
+                        だからこそ、私たちは「広報」を経営の要と考えています。
+                        あなたの経験と感性で、私たちの想いを言語化し、ビジュアル化してください。マーケティング視点を持ち、ブランドを一緒に育てていけるプロフェッショナルをお待ちしています。
+                    </p>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img src="DSC_0593.webp" alt="Meeting scene" class="w-full h-auto rounded-lg shadow-xl object-cover grayscale hover:grayscale-0 transition duration-700">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Description -->
+    <section id="job-desc" class="py-20 bg-light">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-primary font-bold tracking-widest text-xs uppercase block mb-2">JOB DESCRIPTION</span>
+                <h2 class="text-3xl font-serif text-secondary">仕事内容</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4"><i class="fa-brands fa-instagram"></i></div>
+                    <h3 class="text-lg font-bold mb-4">SNS運用・企画</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        Instagram、TikTok、X（旧Twitter）など、各プラットフォームの特性に合わせたコンテンツの企画・撮影・編集・投稿を行います。ドクターやスタッフと連携し、リアルな現場の空気を伝えます。
+                    </p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3 class="text-lg font-bold mb-4">ブランディング・広報戦略</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        クリニックの認知拡大のための戦略立案。キャンペーンの企画や、HPの更新ディレクション、メディア対応など、ブランド価値を高めるための施策を幅広く担当します。
+                    </p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3 class="text-lg font-bold mb-4">マーケティング分析</h3>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                        投稿のインサイト分析や、集患データの分析を行い、次の施策に活かします。「なんとなく」の発信ではなく、数字に基づいたロジカルな運用スキルが磨かれます。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Employee Voice / Persona -->
+    <section id="employee" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-primary font-bold tracking-widest text-xs uppercase block mb-2">IDEAL CANDIDATE</span>
+                <h2 class="text-3xl font-serif text-secondary">求める人物像</h2>
+            </div>
+
+            <div class="bg-primary/5 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/3">
+                    <img src="DSC_1264-Edit.webp" alt="Portrait of a professional woman" class="rounded-lg shadow-lg w-full object-cover h-80">
+                </div>
+                <div class="md:w-2/3">
+                    <h3 class="text-2xl font-serif mb-6 text-accent">「好き」を仕事にし、<br>プロフェッショナルとして自走できる方</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                            <div>
+                                <strong class="block text-gray-800">美容医療を心から愛している方</strong>
+                                <span class="text-sm text-gray-600">自身の美容体験や悩みをユーザー目線で共有できる共感力が重要です。</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                            <div>
+                                <strong class="block text-gray-800">医学的知識を貪欲に吸収できる方</strong>
+                                <span class="text-sm text-gray-600">ドクターの話を理解し、正しい知識をわかりやすく翻訳して伝える力が求められます。</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-primary mt-1 mr-3"></i>
+                            <div>
+                                <strong class="block text-gray-800">裁量を持って挑戦したい方</strong>
+                                <span class="text-sm text-gray-600">言われたことだけをこなすのではなく、「こうすればもっと良くなる」を提案できる方を歓迎します。</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Table -->
+    <section id="requirements" class="py-20 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-primary font-bold tracking-widest text-xs uppercase block mb-2">REQUIREMENTS</span>
+                <h2 class="text-3xl font-serif text-secondary">募集要項</h2>
+            </div>
+
+            <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+                <table class="w-full text-left border-collapse">
+                    <tbody>
+                        <tr class="border-b border-gray-100 hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">職種</th>
+                            <td class="p-6 text-sm text-gray-700">美容クリニック 広報・マーケティング担当</td>
+                        </tr>
+                        <tr class="border-b border-gray-100 hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">応募資格</th>
+                            <td class="p-6 text-sm text-gray-700">
+                                <ul class="list-disc list-inside space-y-2">
+                                    <li>美容クリニック広報経験1年以上（目安）</li>
+                                    <li>SNS（Instagram/TikTok等）の運用経験がある方</li>
+                                    <li>Adobe製品（Photoshop, Illustrator, Premiere Pro）の実務使用スキル</li>
+                                    <li>基本的なPCスキル（Word, Excel, PowerPoint）</li>
+                                    <li class="text-xs text-gray-500 list-none ml-5 mt-1">※Canvaなどの簡易ツールだけでなく、Adobeソフトでのクリエイティブ制作ができる方を求めています。</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100 hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">給与</th>
+                            <td class="p-6 text-sm text-gray-700">
+                                <span class="text-xl font-bold text-secondary">月給 40万円〜</span><br>
+                                <span class="text-xs text-gray-500 mt-1 block">※固定残業代11時間分を含む（超過分は別途支給）</span>
+                                <div class="mt-3 space-y-1 text-xs text-gray-600">
+                                    <p>・経験・能力を考慮し、要相談（前職給与考慮）</p>
+                                    <p>・賞与あり（業績・能力に応じて）</p>
+                                    <p>・昇給あり</p>
+                                    <p>・試用期間3ヶ月～（期間中は有期雇用契約・賞与なし。終了後、正社員登用）</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100 hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">勤務時間</th>
+                            <td class="p-6 text-sm text-gray-700">
+                                10:00〜19:00（実働8時間 / 休憩1時間）<br>
+                                <span class="text-xs text-gray-500">※早番・遅番ありのシフト制</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100 hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">休日・休暇</th>
+                            <td class="p-6 text-sm text-gray-700">
+                                <span class="font-bold">年間休日 118日</span><br>
+                                （公休115日 ＋ 夏季休暇3日）
+                                <div class="mt-2 space-y-1">
+                                    <p>・有給休暇（入職半年後に10日付与）</p>
+                                    <p>・慶弔休暇</p>
+                                    <p>・産前産後休暇・育児休暇</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-gray-100 hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">福利厚生・待遇</th>
+                            <td class="p-6 text-sm text-gray-700">
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                                    <div class="flex items-center"><i class="fa-solid fa-train-subway text-primary w-6"></i> 通勤手当（上限3万円）</div>
+                                    <div class="flex items-center"><i class="fa-solid fa-shield-heart text-primary w-6"></i> 社会保険完備</div>
+                                    <div class="flex items-center"><i class="fa-solid fa-chart-line text-primary w-6"></i> 昇給制度</div>
+                                    <div class="flex items-center font-bold text-accent"><i class="fa-solid fa-sparkles text-primary w-6"></i> 美容施術・物販割引あり</div>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-2">※スタッフにも大好評の社割制度です。働きながら綺麗になれる環境です。</p>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition">
+                            <th class="p-6 bg-gray-50 w-1/3 text-sm font-bold text-gray-700 align-top">勤務地</th>
+                            <td class="p-6 text-sm text-gray-700">
+                                <span class="font-bold">First Clinic (ファーストクリニック)</span><br>
+                                〒104-0061 東京都中央区銀座...<br>
+                                <span class="text-xs text-gray-500">※詳細はHPをご確認ください</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selection Flow -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-serif text-secondary">選考フロー</h2>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-between items-center relative">
+                <!-- Line for Desktop -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 -z-10"></div>
+
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center bg-white p-4 z-10 w-full md:w-auto mb-6 md:mb-0">
+                    <div class="w-12 h-12 bg-secondary text-white rounded-full flex items-center justify-center font-bold text-lg mb-3">1</div>
+                    <h3 class="font-bold mb-1">応募</h3>
+                    <p class="text-xs text-gray-500 text-center">フォームよりエントリー</p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center bg-white p-4 z-10 w-full md:w-auto mb-6 md:mb-0">
+                    <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-3">2</div>
+                    <h3 class="font-bold mb-1">書類選考</h3>
+                    <p class="text-xs text-gray-500 text-center">履歴書・職務経歴書</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center bg-white p-4 z-10 w-full md:w-auto mb-6 md:mb-0">
+                    <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-3">3</div>
+                    <h3 class="font-bold mb-1">面接（1〜3回）</h3>
+                    <p class="text-xs text-gray-500 text-center">オンラインまたは対面</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center bg-white p-4 z-10 w-full md:w-auto">
+                    <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mb-3">4</div>
+                    <h3 class="font-bold mb-1">内定</h3>
+                    <p class="text-xs text-gray-500 text-center">条件面談・入社日調整</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Entry Form Section (GAS連携・最新版) -->
+    <section id="entry" class="py-24 bg-secondary text-white">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-serif mb-6">Join Our Team</h2>
+            <p class="mb-10 text-gray-300 leading-relaxed">
+                ファーストクリニックと共に成長し、<br>
+                美容医療の未来を創っていけるあなたからのご応募をお待ちしています。
+            </p>
+            
+            <!-- スプレッドシート＆ドライブへ送信するフォーム -->
+            <form id="recruitForm" class="bg-white text-gray-800 rounded-lg p-8 shadow-2xl max-w-2xl mx-auto text-left">
+                <div class="grid grid-cols-1 gap-6">
+                    
+                    <!-- 氏名 -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">姓 <span class="text-red-500">*</span></label>
+                            <input type="text" name="lastName" required placeholder="例：山田" class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">名 <span class="text-red-500">*</span></label>
+                            <input type="text" name="firstName" required placeholder="例：花子" class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary">
+                        </div>
+                    </div>
+
+                    <!-- カナ -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">セイ <span class="text-red-500">*</span></label>
+                            <input type="text" name="lastNameKana" required placeholder="例：ヤマダ" class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">メイ <span class="text-red-500">*</span></label>
+                            <input type="text" name="firstNameKana" required placeholder="例：ハナコ" class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary">
+                        </div>
+                    </div>
+
+                    <!-- 生年月日・性別 -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold mb-2">生年月日 <span class="text-red-500">*</span></label>
+                            <input type="date" name="birthDate" required class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary text-gray-600">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">性別 <span class="text-red-500">*</span></label>
+                            <select name="gender" required class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary text-gray-600">
+                                <option value="">選択してください</option>
+                                <option value="女性">女性</option>
+                                <option value="男性">男性</option>
+                                <option value="その他">その他</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- 連絡先 -->
+                    <div>
+                        <label class="block text-sm font-bold mb-2">メールアドレス <span class="text-red-500">*</span></label>
+                        <input type="email" name="email" required placeholder="example@email.com" class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold mb-2">電話番号 <span class="text-red-500">*</span></label>
+                        <input type="tel" name="phone" required placeholder="090-1234-5678" class="w-full bg-gray-50 border border-gray-300 rounded py-3 px-4 focus:outline-none focus:border-primary">
+                    </div>
+                    
+                    <!-- 応募書類 -->
+                    <div class="border border-dashed border-gray-300 rounded-lg p-6 bg-gray-50 mt-2">
+                        <label class="block text-sm font-bold mb-4">応募書類の添付 <span class="text-red-500">*</span></label>
+                        
+                        <div class="mb-5">
+                            <label class="block text-xs font-semibold text-gray-700 mb-2">1. 履歴書 <span class="text-red-500">*</span></label>
+                            <input type="file" name="resume" required accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.png" class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-primary/10 file:text-primary hover:file:bg-primary/20 cursor-pointer">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-700 mb-2">2. 職務経歴書 <span class="text-red-500">*</span></label>
+                            <input type="file" name="cv" required accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.png" class="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-primary/10 file:text-primary hover:file:bg-primary/20 cursor-pointer">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" id="submitBtn" class="w-full bg-primary hover:bg-accent text-white font-bold py-4 rounded-md transition duration-300 mt-4 tracking-widest shadow-lg flex justify-center items-center">
+                        送信する
+                    </button>
+                </div>
+            </form>
+            <p class="text-xs text-gray-400 mt-6">
+                ※ご入力いただいた個人情報は採用選考のみに使用いたします。
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <a href="https://firstclinic-tokyo.com/" target="_blank" class="block mb-6">
+                    <img src="https://firstclinic-tokyo.com/fc/wp-content/themes/fc/assets/images/logo.svg" alt="FIRST CLINIC TOKYO" class="h-8 md:h-10 brightness-0 invert">
+                </a>
+                <p class="text-sm">
+                    患者様一人ひとりに寄り添い、<br>
+                    最適な医療を提供する美容クリニック
+                </p>
+            </div>
+            <div class="md:text-right">
+                <a href="https://firstclinic-tokyo.com/" target="_blank" class="hover:text-primary transition mr-6">公式サイト <i class="fa-solid fa-arrow-up-right-from-square ml-1 text-xs"></i></a>
+                <a href="#" class="hover:text-primary transition"><i class="fa-brands fa-instagram text-xl"></i></a>
+            </div>
+        </div>
+        <div class="text-center text-xs mt-12 text-gray-600">
+            &copy; First Clinic All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- Google Drive/Spreadsheet 連携用スクリプト -->
+    <script>
+        document.getElementById('recruitForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const originalText = submitBtn.innerHTML;
+            
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>送信中... (ファイル容量により時間がかかります)';
+            submitBtn.disabled = true;
+            submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+
+            try {
+                const formData = new FormData(this);
+                const dataObj = {};
+                
+                for (let [key, value] of formData.entries()) {
+                    if (value instanceof File && value.name) {
+                        dataObj[key + 'Base64'] = await toBase64(value);
+                        dataObj[key + 'Name'] = value.name;
+                        dataObj[key + 'Mime'] = value.type;
+                    } else if (!(value instanceof File)) {
+                        dataObj[key] = value;
+                    }
+                }
+
+                // ★★★ ここに発行したGASのWebアプリURLを貼り付けます ★★★
+                const gasUrl = 'https://script.google.com/macros/s/AKfycbzjx2S8ItJCzEPO93WggEgwIndbPDRuxgznEkqJnrsr5GPK8FbZLO5g3ZDxuTU3NFQ3/exec';
+                
+                if(gasUrl === 'YOUR_GAS_WEB_APP_URL') {
+                    alert('エラー: スクリプトURLが設定されていません。HTML内の gasUrl を更新してください。');
+                    throw new Error('URL missing');
+                }
+
+                const response = await fetch(gasUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+                    body: JSON.stringify(dataObj)
+                });
+                
+                const result = await response.json();
+                
+                if (result.status === 'success') {
+                    alert('送信が完了しました。ご応募ありがとうございます。');
+                    this.reset();
+                } else {
+                    alert('送信エラー: ' + result.message);
+                }
+                
+            } catch (error) {
+                if(error.message !== 'URL missing') {
+                    alert('通信エラーが発生しました。ネットワークをご確認ください。');
+                }
+            } finally {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+                submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+            }
+        });
+
+        function toBase64(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = () => resolve(reader.result.split(',')[1]);
+                reader.onerror = error => reject(error);
+            });
+        }
+    </script>
+</body>
+</html>
