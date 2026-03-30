@@ -1,0 +1,237 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "FIRST CLINIC TOKYO RECRUITMENT" [ref=e6] [cursor=pointer]:
+        - /url: https://firstclinic-tokyo.com/
+        - img "FIRST CLINIC TOKYO" [ref=e7]
+        - generic [ref=e8]: RECRUITMENT
+      - navigation [ref=e9]:
+        - link "メッセージ" [ref=e10] [cursor=pointer]:
+          - /url: "#message"
+        - link "仕事内容" [ref=e11] [cursor=pointer]:
+          - /url: "#job-desc"
+        - link "社員の声" [ref=e12] [cursor=pointer]:
+          - /url: "#employee"
+        - link "募集要項" [ref=e13] [cursor=pointer]:
+          - /url: "#requirements"
+      - link "ENTRY" [ref=e15] [cursor=pointer]:
+        - /url: "#entry"
+  - generic [ref=e16]:
+    - img "Clinic Interior Aesthetic" [ref=e18]
+    - generic [ref=e20]:
+      - paragraph [ref=e21]: FIRST CLINIC PR RECRUITMENT
+      - heading "あなたの言葉が、 誰かの自信になる。 美容医療の「正しさ」と「魅力」を届ける広報" [level=1] [ref=e22]:
+        - text: あなたの言葉が、
+        - text: 誰かの自信になる。
+        - generic [ref=e23]: 美容医療の「正しさ」と「魅力」を届ける広報
+      - paragraph [ref=e24]:
+        - text: ただ情報を発信するだけではない。
+        - text: クリニックと患者様の架け橋となり、ブランドを創り上げる。
+        - text: 月給40万円〜 / 経験者募集
+      - link "募集要項を見る" [ref=e25] [cursor=pointer]:
+        - /url: "#requirements"
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]: MESSAGE
+      - heading "「綺麗になりたい」という想いに 誠実に向き合うために。" [level=2] [ref=e30]:
+        - text: 「綺麗になりたい」という想いに
+        - text: 誠実に向き合うために。
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "これからのファーストクリニックを 創るのは、あなたの発信力です。" [level=3] [ref=e34]:
+          - text: これからのファーストクリニックを
+          - text: 創るのは、あなたの発信力です。
+        - paragraph [ref=e35]: ファーストクリニックは、ただ施術を提供するだけの場所ではありません。患者様が抱えるコンプレックスに寄り添い、医学的根拠に基づいた「正解」を提案する場所です。
+        - paragraph [ref=e36]: しかし、どれだけ素晴らしい技術があっても、それが正しく伝わらなければ意味がありません。SNS全盛の今、情報の取捨選択はより難しくなっています。
+        - paragraph [ref=e37]: だからこそ、私たちは「広報」を経営の要と考えています。 あなたの経験と感性で、私たちの想いを言語化し、ビジュアル化してください。マーケティング視点を持ち、ブランドを一緒に育てていけるプロフェッショナルをお待ちしています。
+      - img "Meeting scene" [ref=e39]
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]: JOB DESCRIPTION
+      - heading "仕事内容" [level=2] [ref=e44]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e48]: 
+        - heading "SNS運用・企画" [level=3] [ref=e49]
+        - paragraph [ref=e50]: Instagram、TikTok、X（旧Twitter）など、各プラットフォームの特性に合わせたコンテンツの企画・撮影・編集・投稿を行います。ドクターやスタッフと連携し、リアルな現場の空気を伝えます。
+      - generic [ref=e51]:
+        - generic [ref=e53]: 
+        - heading "ブランディング・広報戦略" [level=3] [ref=e54]
+        - paragraph [ref=e55]: クリニックの認知拡大のための戦略立案。キャンペーンの企画や、HPの更新ディレクション、メディア対応など、ブランド価値を高めるための施策を幅広く担当します。
+      - generic [ref=e56]:
+        - generic [ref=e58]: 
+        - heading "マーケティング分析" [level=3] [ref=e59]
+        - paragraph [ref=e60]: 投稿のインサイト分析や、集患データの分析を行い、次の施策に活かします。「なんとなく」の発信ではなく、数字に基づいたロジカルな運用スキルが磨かれます。
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]: IDEAL CANDIDATE
+      - heading "求める人物像" [level=2] [ref=e65]
+    - generic [ref=e66]:
+      - img "Portrait of a professional woman" [ref=e68]
+      - generic [ref=e69]:
+        - heading "「好き」を仕事にし、 プロフェッショナルとして自走できる方" [level=3] [ref=e70]:
+          - text: 「好き」を仕事にし、
+          - text: プロフェッショナルとして自走できる方
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - generic [ref=e73]: 
+            - generic [ref=e74]:
+              - strong [ref=e75]: 美容医療を心から愛している方
+              - text: 自身の美容体験や悩みをユーザー目線で共有できる共感力が重要です。
+          - listitem [ref=e76]:
+            - generic [ref=e77]: 
+            - generic [ref=e78]:
+              - strong [ref=e79]: 医学的知識を貪欲に吸収できる方
+              - text: ドクターの話を理解し、正しい知識をわかりやすく翻訳して伝える力が求められます。
+          - listitem [ref=e80]:
+            - generic [ref=e81]: 
+            - generic [ref=e82]:
+              - strong [ref=e83]: 裁量を持って挑戦したい方
+              - text: 言われたことだけをこなすのではなく、「こうすればもっと良くなる」を提案できる方を歓迎します。
+  - generic [ref=e85]:
+    - generic [ref=e86]:
+      - generic [ref=e87]: REQUIREMENTS
+      - heading "募集要項" [level=2] [ref=e88]
+    - table [ref=e90]:
+      - rowgroup [ref=e91]:
+        - row "職種 美容クリニック 広報・マーケティング担当" [ref=e92]:
+          - rowheader "職種" [ref=e93]
+          - cell "美容クリニック 広報・マーケティング担当" [ref=e94]
+        - row "応募資格 美容クリニック広報経験1年以上（目安） SNS（Instagram/TikTok等）の運用経験がある方 Adobe製品（Photoshop, Illustrator, Premiere Pro）の実務使用スキル スマートフォン・カメラの撮影スキル 基本的なPCスキル（Word, Excel, PowerPoint） ※能力・経験によって業務内容を決定致しますので、それに併せて必要な実務使用スキルも変動します。" [ref=e95]:
+          - rowheader "応募資格" [ref=e96]
+          - cell "美容クリニック広報経験1年以上（目安） SNS（Instagram/TikTok等）の運用経験がある方 Adobe製品（Photoshop, Illustrator, Premiere Pro）の実務使用スキル スマートフォン・カメラの撮影スキル 基本的なPCスキル（Word, Excel, PowerPoint） ※能力・経験によって業務内容を決定致しますので、それに併せて必要な実務使用スキルも変動します。" [ref=e97]:
+            - list [ref=e98]:
+              - listitem [ref=e99]: 美容クリニック広報経験1年以上（目安）
+              - listitem [ref=e100]: SNS（Instagram/TikTok等）の運用経験がある方
+              - listitem [ref=e101]: Adobe製品（Photoshop, Illustrator, Premiere Pro）の実務使用スキル
+              - listitem [ref=e102]: スマートフォン・カメラの撮影スキル
+              - listitem [ref=e103]: 基本的なPCスキル（Word, Excel, PowerPoint）
+              - listitem [ref=e104]: ※能力・経験によって業務内容を決定致しますので、それに併せて必要な実務使用スキルも変動します。
+        - row "給与 月給 40万円〜 ※固定残業代11時間分を含む（超過分は別途支給） ・経験・能力を考慮し、要相談（前職給与考慮） ・賞与あり（業績・能力に応じて） ・昇給あり ・試用期間3ヶ月～（期間中は有期雇用契約・賞与なし。終了後、正社員登用）" [ref=e105]:
+          - rowheader "給与" [ref=e106]
+          - cell "月給 40万円〜 ※固定残業代11時間分を含む（超過分は別途支給） ・経験・能力を考慮し、要相談（前職給与考慮） ・賞与あり（業績・能力に応じて） ・昇給あり ・試用期間3ヶ月～（期間中は有期雇用契約・賞与なし。終了後、正社員登用）" [ref=e107]:
+            - text: 月給 40万円〜
+            - generic [ref=e108]: ※固定残業代11時間分を含む（超過分は別途支給）
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: ・経験・能力を考慮し、要相談（前職給与考慮）
+              - paragraph [ref=e111]: ・賞与あり（業績・能力に応じて）
+              - paragraph [ref=e112]: ・昇給あり
+              - paragraph [ref=e113]: ・試用期間3ヶ月～（期間中は有期雇用契約・賞与なし。終了後、正社員登用）
+        - row "勤務時間 10:00〜19:00（実働8時間 / 休憩1時間） ※早番・遅番ありのシフト制" [ref=e114]:
+          - rowheader "勤務時間" [ref=e115]
+          - cell "10:00〜19:00（実働8時間 / 休憩1時間） ※早番・遅番ありのシフト制" [ref=e116]:
+            - text: 10:00〜19:00（実働8時間 / 休憩1時間）
+            - text: ※早番・遅番ありのシフト制
+        - row "休日・休暇 年間休日 118日 （公休115日 ＋ 夏季休暇3日） ・有給休暇（入職半年後に10日付与） ・慶弔休暇 ・産前産後休暇・育児休暇" [ref=e117]:
+          - rowheader "休日・休暇" [ref=e118]
+          - cell "年間休日 118日 （公休115日 ＋ 夏季休暇3日） ・有給休暇（入職半年後に10日付与） ・慶弔休暇 ・産前産後休暇・育児休暇" [ref=e119]:
+            - text: 年間休日 118日
+            - text: （公休115日 ＋ 夏季休暇3日）
+            - generic [ref=e120]:
+              - paragraph [ref=e121]: ・有給休暇（入職半年後に10日付与）
+              - paragraph [ref=e122]: ・慶弔休暇
+              - paragraph [ref=e123]: ・産前産後休暇・育児休暇
+        - row "福利厚生・待遇  通勤手当（上限3万円）  社会保険完備  昇給制度 美容施術・物販割引あり ※スタッフにも大好評の社割制度です。働きながら綺麗になれる環境です。" [ref=e124]:
+          - rowheader "福利厚生・待遇" [ref=e125]
+          - cell " 通勤手当（上限3万円）  社会保険完備  昇給制度 美容施術・物販割引あり ※スタッフにも大好評の社割制度です。働きながら綺麗になれる環境です。" [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128]:
+                - generic [ref=e129]: 
+                - text: 通勤手当（上限3万円）
+              - generic [ref=e130]:
+                - generic [ref=e131]: 
+                - text: 社会保険完備
+              - generic [ref=e132]:
+                - generic [ref=e133]: 
+                - text: 昇給制度
+              - generic [ref=e134]: 美容施術・物販割引あり
+            - paragraph [ref=e135]: ※スタッフにも大好評の社割制度です。働きながら綺麗になれる環境です。
+        - row "勤務地 First Clinic (ファーストクリニック) 〒106-0032 東京都港区六本木5丁目1番3号 ゴトウビルディング1st 8階" [ref=e136]:
+          - rowheader "勤務地" [ref=e137]
+          - cell "First Clinic (ファーストクリニック) 〒106-0032 東京都港区六本木5丁目1番3号 ゴトウビルディング1st 8階" [ref=e138]:
+            - text: First Clinic (ファーストクリニック)
+            - text: 〒106-0032 東京都港区六本木5丁目1番3号 ゴトウビルディング1st 8階
+  - generic [ref=e140]:
+    - heading "選考フロー" [level=2] [ref=e142]
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - generic [ref=e146]: "1"
+        - heading "応募" [level=3] [ref=e147]
+        - paragraph [ref=e148]: フォームよりエントリー
+      - generic [ref=e149]:
+        - generic [ref=e150]: "2"
+        - heading "書類選考" [level=3] [ref=e151]
+        - paragraph [ref=e152]: 履歴書・職務経歴書
+      - generic [ref=e153]:
+        - generic [ref=e154]: "3"
+        - heading "面接（1〜3回）" [level=3] [ref=e155]
+        - paragraph [ref=e156]: オンラインまたは対面
+      - generic [ref=e157]:
+        - generic [ref=e158]: "4"
+        - heading "内定" [level=3] [ref=e159]
+        - paragraph [ref=e160]: 条件面談・入社日調整
+  - generic [ref=e162]:
+    - heading "Join Our Team" [level=2] [ref=e163]
+    - paragraph [ref=e164]:
+      - text: ファーストクリニックと共に成長し、
+      - text: 美容医療の未来を創っていけるあなたからのご応募をお待ちしています。
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - generic [ref=e169]: 姓 *
+          - textbox "例：山田" [ref=e170]
+        - generic [ref=e171]:
+          - generic [ref=e172]: 名 *
+          - textbox "例：花子" [ref=e173]
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]: セイ *
+          - textbox "例：ヤマダ" [ref=e177]
+        - generic [ref=e178]:
+          - generic [ref=e179]: メイ *
+          - textbox "例：ハナコ" [ref=e180]
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]: 生年月日 *
+          - textbox [ref=e184]
+        - generic [ref=e185]:
+          - generic [ref=e186]: 性別 *
+          - combobox [ref=e187]:
+            - option "選択してください" [selected]
+            - option "女性"
+            - option "男性"
+            - option "その他"
+      - generic [ref=e188]:
+        - generic [ref=e189]: メールアドレス *
+        - textbox "example@email.com" [ref=e190]
+      - generic [ref=e191]:
+        - generic [ref=e192]: 電話番号 *
+        - textbox "090-1234-5678" [ref=e193]
+      - generic [ref=e194]:
+        - generic [ref=e195]: 応募書類の添付 *
+        - generic [ref=e196]:
+          - generic [ref=e197]: 1. 履歴書 *
+          - button "Choose File" [ref=e198] [cursor=pointer]
+        - generic [ref=e199]:
+          - generic [ref=e200]: 2. 職務経歴書 *
+          - button "Choose File" [ref=e201] [cursor=pointer]
+      - button "送信する" [ref=e202] [cursor=pointer]
+    - paragraph [ref=e203]: ※ご入力いただいた個人情報は採用選考のみに使用いたします。
+  - contentinfo [ref=e204]:
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - link "FIRST CLINIC TOKYO" [ref=e207] [cursor=pointer]:
+          - /url: https://firstclinic-tokyo.com/
+          - img "FIRST CLINIC TOKYO" [ref=e208]
+        - paragraph [ref=e209]:
+          - text: 患者様一人ひとりに寄り添い、
+          - text: 最適な医療を提供する美容クリニック
+      - generic [ref=e210]:
+        - link "公式サイト " [ref=e211] [cursor=pointer]:
+          - /url: https://firstclinic-tokyo.com/
+          - text: 公式サイト
+          - generic [ref=e212]: 
+        - link "" [ref=e213] [cursor=pointer]:
+          - /url: https://www.instagram.com/first_clinic_tokyo/
+          - generic [ref=e214]: 
+    - generic [ref=e215]: © First Clinic All Rights Reserved.
