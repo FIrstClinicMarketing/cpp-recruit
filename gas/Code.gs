@@ -1,6 +1,7 @@
 const SETTINGS = {
   defaultSpreadsheetId: '1vDwV2V81pUszVFx7RnbnBvApzBL8TxVh4CRTwMJsSAQ',
-  defaultDriveFolderId: '1RryuJalbT2FsnaYy-PKwlrxLcHn0YJ7B',
+  defaultDriveFolderId: '1mjpZHafYnaH7JeRGpKdz6bJOyeGsvOBR',
+  notifyEmail: 'marketing@firstclinic-tokyo.com',
   sheetName: 'Applications',
   rootFolderName: 'Recruit Applications',
   requiredTextFields: {
@@ -62,6 +63,8 @@ function doPost(e) {
       applicantFolder.getUrl(),
       applicantFolder.getId()
     ]);
+
+    sendNotificationEmail_(payload, resumeFile, cvFile, applicantFolder, submittedAt);
 
     return jsonOutput_({
       status: 'success',
@@ -180,6 +183,32 @@ function saveFile_(payload, prefix, folder) {
     name: file.getName(),
     url: file.getUrl()
   };
+}
+
+function sendNotificationEmail_(payload, resumeFile, cvFile, applicantFolder, submittedAt) {
+  const applicantName = normalizeText_(payload.lastName) + ' ' + normalizeText_(payload.firstName);
+  const submittedAtText = Utilities.formatDate(
+    submittedAt,
+    Session.getScriptTimeZone(),
+    'yyyy-MM-dd HH:mm:ss'
+  );
+
+  MailApp.sendEmail({
+    to: SETTINGS.notifyEmail,
+    subject: '【採用応募】' + applicantName + ' さんから応募がありました',
+    body:
+      '採用フォームから新しい応募がありました。\n\n' +
+      '受付日時: ' + submittedAtText + '\n' +
+      '氏名: ' + applicantName + '\n' +
+      'カナ: ' + normalizeText_(payload.lastNameKana) + ' ' + normalizeText_(payload.firstNameKana) + '\n' +
+      '生年月日: ' + normalizeText_(payload.birthDate) + '\n' +
+      '性別: ' + normalizeText_(payload.gender) + '\n' +
+      'メールアドレス: ' + normalizeText_(payload.email) + '\n' +
+      '電話番号: ' + normalizeText_(payload.phone) + '\n' +
+      '履歴書: ' + resumeFile.url + '\n' +
+      '職務経歴書: ' + cvFile.url + '\n' +
+      '保存フォルダ: ' + applicantFolder.getUrl() + '\n'
+  });
 }
 
 function buildApplicantFolderName_(payload, submittedAt) {

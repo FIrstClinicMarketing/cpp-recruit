@@ -22,8 +22,13 @@ Apps Script の `プロジェクトの設定 -> スクリプト プロパティ`
   - 未設定でも、既定で `1vDwV2V81pUszVFx7RnbnBvApzBL8TxVh4CRTwMJsSAQ` に保存します
 - `DRIVE_FOLDER_ID`
   - 応募ファイルを格納する親フォルダの ID
-  - 未設定でも、既定で `1RryuJalbT2FsnaYy-PKwlrxLcHn0YJ7B` に保存します
+  - 未設定でも、既定で `1mjpZHafYnaH7JeRGpKdz6bJOyeGsvOBR` に保存します
   - 別フォルダにしたい場合だけ上書きしてください
+
+## 通知メール
+
+- 応募通知は既定で `marketing@firstclinic-tokyo.com` に送信します
+- `MailApp` を使うため、初回デプロイ後に権限承認が必要です
 
 ## デプロイ手順
 
