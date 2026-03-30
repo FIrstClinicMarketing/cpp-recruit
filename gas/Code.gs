@@ -204,10 +204,8 @@ function sendNotificationEmail_(payload, resumeFile, cvFile, applicantFolder, su
       '生年月日: ' + normalizeText_(payload.birthDate) + '\n' +
       '性別: ' + normalizeText_(payload.gender) + '\n' +
       'メールアドレス: ' + normalizeText_(payload.email) + '\n' +
-      '電話番号: ' + normalizeText_(payload.phone) + '\n' +
-      '履歴書: ' + resumeFile.url + '\n' +
-      '職務経歴書: ' + cvFile.url + '\n' +
-      '保存フォルダ: ' + applicantFolder.getUrl() + '\n'
+      '電話番号: ' + normalizeText_(payload.phone) + '\n\n' +
+      '応募書類はDriveおよびスプレッドシートに保存されています。\n'
   });
 }
 
